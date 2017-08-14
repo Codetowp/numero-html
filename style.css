@@ -1861,7 +1861,7 @@ to {
 
 
 /*----------------
-5.2 our-work-block
+5.3 our-work-block
 -----------------*/
 
 #our-work-block {
@@ -2035,6 +2035,18 @@ to {
 
 #our-work-block .more-links:hover{color:#ffc527;
 	transition: all 300ms ease-in-out; text-decoration:none; border-color:#ffc527; }
+	
+	
+/*----------------
+5.4 our-services
+-----------------*/	
+
+#our-services{padding:80px 0; background:#f6f6fa;}
+#our-services .section-title{margin-bottom:100px;}
+.services-block{margin:40px 0;}	
+.services-block p{font-family: 'Crimson Text', serif; color:#73757d; font-size:16px; line-height:1.4;}
+.services-block .services-content{display:inline-block; width:75%; float:right;}
+.services-block i{display:inline-block; background:#51dde9; color:#fff; font-size:24px; width:70px; height:70px; border-radius:50%; float:left; padding:22px; margin-right:15px; margin-top:17px;}
 
 /*--------------------
 6.1 Gallery & captions
