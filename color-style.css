@@ -1,0 +1,26 @@
+.on{background-color:red !important;}
+
+
+
+/*--Home page About us icon*/
+#home-banner a.btn.chooser-btn{background-color:red;}
+
+.col-about-us i {
+    color: red ;
+}
+/*--why-choose-us background*/
+#why-choose-us .section-title{background:red;}
+#why-choose-us .section-title:after{background:red;}
+
+
+/*--our-work-block background*/
+
+#our-work-block .works figcaption{    background: rgba(255,0,0,0.5);}
+/*--services icon*/
+.services-block i{background:red;}
+
+/*--clients*/
+#clients-block{
+	background:red;
+	
+}
