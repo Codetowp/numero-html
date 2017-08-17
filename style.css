@@ -2047,7 +2047,7 @@ to {
 	color: #ffc527;
 	transition: all 300ms ease-in-out;
 }
-#our-work-block .more-links {
+ .more-links {
 	float: right;
 	margin-right: 25px;
 	font-size: 14px;
@@ -2056,7 +2056,7 @@ to {
 	border-bottom: 2px #242424 solid;
 	margin-top: 15px;
 }
-#our-work-block .more-links:hover {
+ .more-links:hover {
 	color: #ffc527;
 	transition: all 300ms ease-in-out;
 	text-decoration: none;
@@ -2163,7 +2163,11 @@ to {
 }
 #testimonial.owl-theme .owl-controls .owl-page.active {
 	opacity: 1;
+	border:1px #51dde9 solid;
 }
+
+#testimonials-block .owl-theme .owl-controls .owl-page span {visibility:hidden;}
+
 /*----------------
 5.6 Clients Section
 -----------------*/	
@@ -2171,7 +2175,7 @@ to {
 
 #clients-block {
 	background: #51dde9;
-	padding: 80px 0;
+	padding: 50px 0;
 	color: #ffffff;
 }
 #clients .item {
@@ -2201,6 +2205,143 @@ to {
 #clients-block .owl-theme .owl-controls .owl-page.active span {
 	background: #fff;
 }
+
+
+
+/*----------------
+5.7 from-blog Section
+-----------------*/	
+
+.section-title p{max-width:700px; margin:0 auto; color:#73757d; font-size:16px; }
+#from-blog{padding:120px 0 80px; text-align:center;}
+
+
+
+
+#from-blog .section-title {
+	margin-bottom: 80px;
+}
+
+
+#from-blog article a img{max-height: 240px;
+	min-height: 240px; border-radius:8px;}
+
+article {
+	
+	margin-bottom: 40px;
+}
+
+
+/*----------------
+5.8 article
+-----------------*/	
+
+
+article a img {
+	max-height: 350px;
+	width: 100%;
+	object-fit: cover;
+	display: block;
+}
+article header {
+	padding: 0;
+}
+article header .date-article {
+	color: #a1aaba;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: 0.8px;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+}
+article header .author.vcard a {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: 0.8px;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	color: #3b3e8a;
+	font-weight: 600;
+}
+article header.entry-header {
+	color: #a1aaba;
+	font-family: 'Droid Serif', serif;
+	text-transform: none;
+	font-weight: 400;
+	font-style: italic;
+}
+article a h5 {
+	color: #404040;
+	margin-top: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+}
+
+article a{text-decoration:none !important;}
+
+article a h5:hover {
+	color: #51dde9;
+	transition: all 0.6s;
+	-moz-transition: all 0.6s;
+	-webkit-transition: all 0.6s;
+	
+}
+article p {
+	font-size: 18px;
+	color: #73757d;
+	font-weight: 400;
+	margin-top: 15px;
+	letter-spacing: 0.5px;
+		font-family: 'Crimson Text', serif;
+}
+
+
+/*----------------
+5.9 home-contact-block
+-----------------*/	
+
+#free-trial-block {
+	padding: 70px 0 55px;
+	background: #31313b;
+}
+
+#free-trial-block .row{padding:15px;}
+
+#free-trial-block p {
+	font-size: 24px;
+	font-weight: 500;
+	color: #fff;
+	margin-bottom: 0;
+	display: inline-block;
+	float: left;
+	max-width: 800px;
+	
+}
+#free-trial-block a {
+	float: right;
+	max-width: 300px;
+	border: 1px #51dde9 solid;
+	display: inline-block;
+	color: #fff;
+	border-radius:5px;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 400;
+	background: #51dde9;
+	padding: 15px 53px;
+	letter-spacing: 0.8px;
+}
+#free-trial-block a:hover {
+	border: 1px #fff solid;
+	background: none;
+	text-decoration: none;
+	transition: all .6s;
+	-moz-transition: all .6s;
+	-webkit-transition: all .6s;
+}
+
 /*--------------------
 6.1 Gallery & captions
 ----------------------*/
@@ -2254,6 +2395,21 @@ to {
 }
 .gallery-caption {
 	display: block;
+}
+
+/*--------------------
+7.0 Footer
+----------------------*/
+
+
+.bottom-footer{padding:80px 0; background:#191919;}
+
+.bottom-footer .navbar-brand {
+	color: #fff;
+	font-size: 26px;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
 }
 
 
@@ -2335,6 +2491,23 @@ blockquote {
 }
 }
  @media (max-width: 603px) {
+	 
+	 
+#free-trial-block p {
+	padding-left: 20px;
+	padding-right: 20px;
+	float: none;
+	text-align: center;
+	display: block;
+}
+#free-trial-block a {
+	float: none;
+	display: block;
+	margin-top: 20px;
+	max-width: none;
+	text-align: center;
+}	 
+	 
 .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
 	width: 48% !important;
 }
