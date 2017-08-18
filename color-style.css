@@ -37,3 +37,13 @@ article a h5:hover {
 /*--Free trial color*/
 
 #free-trial-block a {border: 1px red solid; background:red;}
+
+/*--Footer*/
+.subcribe-block form .btn i.fa{color:red;}
+
+.subcribe-block form input:focus {
+	border: 1px red solid;}
+	.bottom-footer .site-identity .socio li a:hover {
+	color: red;
+	transition: all 0.5s;
+}
