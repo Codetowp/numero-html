@@ -1,6 +1,6 @@
 .on{background-color:red !important;}
 
-
+.cart-notify i span{background:red;}
 
 /*--Home page About us icon*/
 #home-banner a.btn.chooser-btn{background-color:red;}
@@ -47,3 +47,50 @@ article a h5:hover {
 	color: red;
 	transition: all 0.5s;
 }
+
+/*single*/
+
+aside .widget_search button {
+	background: red;
+}
+aside .widget_search button:hover {
+
+	border: 1px red solid;
+}
+
+.widget-title:after{background:red;}
+
+.tagcloud a:hover {
+	
+	background: red;
+
+}
+
+.single .single-post ul li:before, .page .page-block ul li:before {background:red;}
+blockquote {border-left: 3px red solid;}
+
+.author-box .author-box-title {
+	color: red;
+	
+}
+.author-box .author-box-title a {
+	background: red;
+
+}
+
+.single .single-post footer.entry-meta-bar a:hover, .page .page-block footer.entry-meta-bar a:hover {
+
+	border: 0px red solid;
+	background: red;
+	
+}
+
+.posts-navigation ul li a:hover {
+
+	border-color: red;
+	background: red;
+	
+}
+
+#respond input[type=submit] {
+	background:red;}
