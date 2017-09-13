@@ -94,3 +94,5 @@ blockquote {border-left: 3px red solid;}
 
 #respond input[type=submit] {
 	background:red;}
+	
+article header .date-article {background:red;}
