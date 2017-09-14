@@ -2870,10 +2870,11 @@ blockquote p {
 .single-post .entry-header:before {
 	display: none;
 }
-.single-post .entry-header h5 {
+.single-post .entry-header h2, .single-post .entry-header h5 {
 	font-size: 32px;
 	font-weight: 600;
 	color: #404040;
+	font-style: normal;
 }
 .page .page-block ul {
 	margin-left: 3%;
