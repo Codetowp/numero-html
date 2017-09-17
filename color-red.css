@@ -2,6 +2,13 @@
 
 .cart-notify i span{background:red;}
 
+/*menu*/
+#top-menu.navbar-default .navbar-nav li:hover {
+	border-bottom: 2px red solid;
+	transition: all 0.5s;
+	background:red;
+}
+
 /*--Home page About us icon*/
 #home-banner a.btn.chooser-btn{background-color:red;}
 
@@ -66,7 +73,7 @@ aside .widget_search button:hover {
 
 }
 
-.single .single-post ul li:before, .page .page-block ul li:before {background:red;}
+.single .single-post ul li:before, .page .page-block ul li:before, .single-jetpack-portfolio .page-block ul li:before{background:red;}
 blockquote {border-left: 3px red solid;}
 
 .author-box .author-box-title {
@@ -96,3 +103,9 @@ blockquote {border-left: 3px red solid;}
 	background:red;}
 	
 article header .date-article {background:red;}
+
+/*Woocommerce*/
+
+.woocommerce span.onsale{background-color:red;}
+.woocommerce ul.products li.product .button:after {background: red;}
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {background: red;}
