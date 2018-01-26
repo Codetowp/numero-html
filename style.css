@@ -4030,8 +4030,8 @@ to {
 #our-work-block .works ul li {
 	float: left;
 	min-height: 100%;
-	width: 23%;
-	margin: 10px;
+width: calc(100% / 3)  ;
+	padding: 10px;
 	list-style: none;
 }
 #our-work-block .works figure {
@@ -4162,6 +4162,7 @@ to {
 }
 .more-links {
 	float: right;
+	display:inline-block;
 	margin-right: 25px;
 	font-size: 14px;
 	color: #242424;
@@ -4645,19 +4646,8 @@ article p {
 /*--------------------
 Responsive queries
 ----------------------*/
-@media (max-width: 1024px) {
-#our-work-block .works ul li {
-	width: 47%;
-	min-height: 100%;
-	float: left;
-	margin: 10px;
-}
-}
- @media (max-width: 1000px) {
-#our-work-block .works ul li {
-	width: 47%;
-}
-}
+
+
  @media (max-width: 800px) {
 #home-banner p {
 	margin: 30px 0;
@@ -4691,12 +4681,7 @@ blockquote {
 .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
 	width: 48% !important;
 }
-#our-work-block .works ul li {
-	width: 47%;
-	min-height: 100%;
-	float: left;
-	margin: 10px;
-}
+
 .single .entry-header .content {
 /*margin-top: 35%;*/
 }
@@ -4744,8 +4729,16 @@ blockquote {
 	display: block;
 	margin: 15px;
 }
+#our-work-block .works ul li {
+    width: calc(100% / 2);
+}
+
+
 }
  @media (max-width: 603px) {
+	 
+ 
+	 
 .search-cart-block {
 	display: block;
 	float: none;
@@ -4772,10 +4765,7 @@ blockquote {
 	width: 48% !important;
 }
 #our-work-block .works ul li {
-	width: 100%;
-	min-height: 100%;
-	float: none;
-	margin: 10px 0;
+    width: calc(100% / 2);
 }
 #comments ol li ol li {
 	padding-left: 0;
@@ -4802,6 +4792,13 @@ blockquote {
 	margin: 15px;
 }
 }
+
+ @media (max-width: 520px) {
+#our-work-block .works ul li {
+    width:100%;
+}
+ }
+
  @media (max-width: 360px) {
 .root-widget {
 	padding-left: 15px;
