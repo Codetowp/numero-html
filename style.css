@@ -4732,6 +4732,23 @@ blockquote {
 #our-work-block .works ul li {
     width: calc(100% / 2);
 }
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+ max-height: none;
+    background: rgba(0,0,0,0.17);
+}
+
+#top-menu.navbar-default ul.navbar-nav > li > a {
+	display: block;
+}
+#top-menu.navbar-default ul.navbar-nav ul li {
+	width: inherit;
+}
+#top-menu.navbar-default ul.navbar-nav ul ul {
+	left: 0;
+}
+#top-menu.navbar-default ul.navbar-nav ul {
+	position: relative;
+}
 
 
 }
@@ -4744,8 +4761,11 @@ blockquote {
 	float: none;
 	border: none;
 }
+#home-banner .content{padding-top:5em;}
+#home-banner .content a{margin-top:10px;}
 #home-banner p {
-	margin: 30px 0;
+	margin: 15px 0;
+	line-height:1.2;
 }
 #free-trial-block p {
 	padding-left: 20px;
@@ -4791,6 +4811,9 @@ blockquote {
 	display: block;
 	margin: 15px;
 }
+
+.root-widget{padding-left:10px;}
+
 }
 
  @media (max-width: 520px) {
