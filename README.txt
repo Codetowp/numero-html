@@ -1,6 +1,6 @@
 # numero-html
 HTML version of Numero
-Designed by dcrazed.com
+Designed by Devfloat.net
 
 #License
 Free for using on your website or client projects. 
