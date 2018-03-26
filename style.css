@@ -1,17 +1,13 @@
 /*
 Theme Name: Numero
-Theme URI: https://devfloat.net/numero-html/
+Theme URI: https://dcrazed.com/?p=18273&preview=true
 Author: Rijo Abraham
-Author URI: https://devfloat.net/
+Author URI: https://dcrazed.com/
 Description: A brilliant startup theme for creative agencies and business.
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
-Text Domain: numero
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
 */
 
 /*--------------------
@@ -54,8 +50,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
 1.0 Normalize
 --------------------*/
 
-
-
 @import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700|Montserrat:100,200,300,300i,400,500,600,700,800,900|Lato:300,400|Crimson+Text:400,400i,600');
 /*
 fonts used
@@ -65,11 +59,6 @@ font-family: 'PT Serif', serif;
 font-family: 'Lato', sans-serif;
 
 /*
-
-
-
-
-
 
 /* Bootstrap handles reset of basic elements */
 

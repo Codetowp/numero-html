@@ -1,7 +1,11 @@
 # numero-html
 HTML version of Numero
-Designed by Devfloat.net
+Designed by Dcrazed.com
 
 #License
 Free for using on your website or client projects. 
-Please dont sell this template as we already have a premium wordpress version. Get it if you want it. :)
+Please don't sell this template. Why? It's free.
+
+#WordPress
+Like to have a WordPress Version of this awesome template. You must this out.
+https://dcrazed.com/themes/
